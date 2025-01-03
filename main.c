@@ -116,7 +116,7 @@ void NappiPainettu(void) {
             Toiminnot();
         }
         
-        // Jos tila on salasananvaihto, k‰sitell‰‰n kutsutaan SalasananVaihtoa
+        // Jos tila on salasananvaihto, kutsutaan SalasananVaihtoa
         if (tila == 2) {
             PORTAbits.RA0 = 1;
             PORTAbits.RA1 = 1;
